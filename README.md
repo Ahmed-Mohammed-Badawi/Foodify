@@ -62,6 +62,15 @@ It Structured will in my opinion there is folder for **Store(Redux)** **Assets**
 
 and many more.....
 
+## How to Set it up
 
-**LIVE PREVIEW**
+<ul>
+    <li>Download Project Files</li>
+    <li>open <b>cmd / cmder</b> in The project folder</li>
+    <li>run the command <b>npm install</b> to download the libraries</li>
+    <li>run the command <b>npm start</b> to show it in the browser</li>
+</ul>
+
+
+## LIVE PREVIEW
 **https://f00dify.netlify.app/**

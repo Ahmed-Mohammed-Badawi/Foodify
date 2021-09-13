@@ -1,0 +1,28 @@
+footer.Footer{
+    background-color: var(--mainColor);
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+    color: white;
+    margin: 5rem auto 2rem;
+}
+
+.OwnerImage{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: .5rem solid white;
+    margin-bottom: 2rem;
+}
+
+.Shape{
+    position: absolute;
+    width: 3rem;
+}
+
+footer.Footer h3 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,318 @@
+{
+    "Meals": {
+        "mainMeal":             {
+            "mealName": "ATCH",
+            "mealPrice": 50,
+            "mealImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+            "ingredients": [
+                "220 gr. of chicken",
+                "110 gr. of cow meat (Halal)",
+                "90 gr. of mozzarella cheese",
+                "Fresh basil leaves",
+                "Salt and freshly ground black pepper",
+                "Extra virgin olive oil"
+            ]
+        },
+        "breakfast": [
+            {
+                "mealName": "Pancake",
+                "mealPrice": 25,
+                "mealImage": "https://images.unsplash.com/photo-1478369402113-1fd53f17e8b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=362&q=80",
+                "ingredients": [
+                    "Blueberry",
+                    "Strawberry",
+                    "Peanut",
+                    "French Toast",
+                    "Berry"
+                ]
+            },
+            {
+                "mealName": "Egyptian Fries",
+                "mealPrice": 20,
+                "mealImage": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "French fries",
+                    "Fresh basil leaves",
+                    "Strawberry",
+                    "Meat",
+                    "Spices"
+                ]
+            },
+            {
+                "mealName": "Fried Egg",
+                "mealPrice": 10,
+                "mealImage": "https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=411&q=80",
+                "ingredients": [
+                    "Toast",
+                    "Fried Egg",
+                    "Tomato",
+                    "Jam",
+                    "Tea"
+                ]
+            },
+            {
+                "mealName": "StMilk ",
+                "mealPrice": 20,
+                "mealImage": "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Strawberry",
+                    "Milk",
+                    "Sweet",
+                    "Yogurt",
+                    "Honey"
+                ]
+            },
+            {
+                "mealName": "StYogurt ",
+                "mealPrice": 8,
+                "mealImage": "https://images.unsplash.com/photo-1499635842761-4f1f28fafcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+                "ingredients": [
+                    "Strawberry",
+                    "Milk",
+                    "Sweet",
+                    "Yogurt",
+                    "Honey"
+                ]
+            },
+            {
+                "mealName": "Cocina",
+                "mealPrice": 12,
+                "mealImage": "https://images.unsplash.com/photo-1457666134378-6b77915bd5f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80",
+                "ingredients": [
+                    "Sauce",
+                    "Custard",
+                    "Sponge",
+                    "Berry",
+                    "Vanilla"
+                ]
+            },
+            {
+                "mealName": "Kwelta",
+                "mealPrice": 12,
+                "mealImage": "https://images.unsplash.com/photo-1519996409144-56c88c9aa612?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Vegetables"
+                ]
+            },
+            {
+                "mealName": "Indian Kwelta",
+                "mealPrice": 13,
+                "mealImage": "https://images.unsplash.com/photo-1510629954389-c1e0da47d414?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Vegetables"
+                ]
+            },
+            {
+                "mealName": "British BKEgg",
+                "mealPrice": 10,
+                "mealImage": "https://images.unsplash.com/photo-1486665384220-2f049536378a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+                "ingredients": [
+                    "Egg",
+                    "Salad",
+                    "Tomato",
+                    "Spices"
+                ]
+            },
+            {
+                "mealName": "American Soup",
+                "mealPrice": 10,
+                "mealImage": "https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Soup",
+                    "Sauce",
+                    "Salt",
+                    "Spices"
+                ]
+            }
+        ],
+        "lunch": [
+            {
+                "mealName": "Pizza Margarita",
+                "mealPrice": 50,
+                "mealImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+                "ingredients": [
+                    "220 gr. of Italian pizza dough",
+                    "90 gr. of mozzarella cheese",
+                    "Fresh basil leaves",
+                    "100 gr. crushed natural tomato sauce",
+                    "Salt and freshly ground black pepper",
+                    "Extra virgin olive oil"
+                ]
+            },
+            {
+                "mealName": "Grilled Meat",
+                "mealPrice": 40,
+                "mealImage": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Vegetables",
+                    "Bread",
+                    "Toast",
+                    "Extra virgin olive oil"
+                ]
+            },
+            {
+                "mealName": "Checkin DD Grilled",
+                "mealPrice": 45,
+                "mealImage": "https://images.unsplash.com/photo-1456404823214-a69ef7a1fae5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+                "ingredients": [
+                    "Checkin",
+                    "Vegetables",
+                    "Bread",
+                    "Roast",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "Egyptian Kofta",
+                "mealPrice": 35,
+                "mealImage": "https://images.unsplash.com/photo-1529042410759-befb1204b468?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Kofta",
+                    "Bread",
+                    "Sauce",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "Grilled Slice",
+                "mealPrice": 50,
+                "mealImage": "https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Special Sauce",
+                    "Bread",
+                    "Normal Sauce",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "Anything",
+                "mealPrice": 35,
+                "mealImage": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Special Sauce",
+                    "Bread",
+                    "Normal Sauce",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "No Name",
+                "mealPrice": 30,
+                "mealImage": "https://images.unsplash.com/photo-1568376794508-ae52c6ab3929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Special Sauce",
+                    "Bread",
+                    "Normal Sauce",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "Pup Meat",
+                "mealPrice": 40,
+                "mealImage": "https://images.unsplash.com/photo-1558030006-450675393462?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Special Sauce",
+                    "Bread",
+                    "Normal Sauce",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "Burger Star",
+                "mealPrice": 20,
+                "mealImage": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Special Sauce",
+                    "Bread",
+                    "Normal Sauce",
+                    "Salad"
+                ]
+            },
+            {
+                "mealName": "Hala Meat",
+                "mealPrice": 20,
+                "mealImage": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80",
+                "ingredients": [
+                    "Meat",
+                    "Special Sauce",
+                    "Bread",
+                    "Normal Sauce",
+                    "Salad"
+                ]
+            }
+        ],
+        "candy": [
+            {
+                "mealName": "Grapes Mega",
+                "mealPrice": 10,
+                "mealImage": "https://images.unsplash.com/photo-1488900128323-21503983a07e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            },
+            {
+                "mealName": "Kemo Cono",
+                "mealPrice": 8,
+                "mealImage": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+            },
+            {
+                "mealName": "Cheery Cake",
+                "mealPrice": 18,
+                "mealImage": "https://images.unsplash.com/photo-1506459225024-1428097a7e18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            },
+            {
+                "mealName": "Chocolate Cake",
+                "mealPrice": 15,
+                "mealImage": "https://images.unsplash.com/photo-1484300681262-5cca666b0954?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=368&q=80"
+            },
+            {
+                "mealName": "Orange Juice",
+                "mealPrice": 5,
+                "mealImage": "https://images.unsplash.com/photo-1512006410192-5e496c2c207b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
+            },
+            {
+                "mealName": "StMilk ",
+                "mealPrice": 20,
+                "mealImage": "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                "ingredients": [
+                    "Strawberry",
+                    "Milk",
+                    "Sweet",
+                    "Yogurt",
+                    "Honey"
+                ]
+            },
+            {
+                "mealName": "StYogurt ",
+                "mealPrice": 8,
+                "mealImage": "https://images.unsplash.com/photo-1499635842761-4f1f28fafcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+                "ingredients": [
+                    "Strawberry",
+                    "Milk",
+                    "Sweet",
+                    "Yogurt",
+                    "Honey"
+                ]
+            },
+            {
+                "mealName": "Cherry Vanilla ",
+                "mealPrice": 10,
+                "mealImage": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=333&q=80"
+            },
+            {
+                "mealName": "Cream Cake ",
+                "mealPrice": 13,
+                "mealImage": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80"
+            },
+            {
+                "mealName": "Tea ",
+                "mealPrice": 5,
+                "mealImage": "https://images.unsplash.com/photo-1609951651556-5334e2706168?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            }
+        ]
+    }
+}

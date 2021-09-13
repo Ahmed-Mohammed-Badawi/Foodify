@@ -1,0 +1,105 @@
+.Menu{
+    background-color: #FFF8FBFF;
+}
+
+
+.Heading_2{
+    font-size: 4rem;
+    color: var(--mainColor);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-bottom: 8rem;
+    background-color: white;
+}
+
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.Main > div{
+    width: 50%;
+    text-align: center;
+}
+
+
+.Image img{
+    width: 100%;
+    max-width: 33rem;
+    filter: drop-shadow(0 0 0.5rem rgba(0,0,0,0.2));
+}
+
+@media only screen and (max-width: 25em){
+    .Image img {
+        max-width: 28rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+.Ingredients{
+    text-transform: capitalize;
+}
+
+.Ingredients h3{
+    font-size: 2.5rem;
+    color: var(--mainColor);
+    margin-bottom: 2rem;
+}
+
+.Ingredient{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+    list-style-position: inside;
+    list-style-type: circle;
+    color: #707070;
+}
+/*750px = 46.875em*/
+/*600px = 37.5em*/
+
+@media only screen and (max-width: 46.875em) and (min-width: 37.5em){
+    .Ingredients{
+        text-align: left !important;
+        padding-left: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .Main{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .Main > div{
+        width: 100%;
+    }
+
+    .Heading_2{
+        font-size: 3rem;
+    }
+
+    .Ingredients h3 {
+        font-size: 2rem;
+    }
+}
+
+.ShowMore{
+    color: var(--mainColor);
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.CarouselContainer{
+    margin: 8rem auto 0;
+    max-width: 75em;
+    cursor: grab;
+}
+
+@media only screen and (max-width: 75em){
+    .CarouselContainer{
+        padding: 0 3rem;
+    }
+}

@@ -1,0 +1,86 @@
+/* Second Font from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/*First Font from The Local PC*/
+@font-face {
+  font-family: 'Pristina';
+  src: local('Pristina'), url("./assets/Fonts/PRISTINA.otf") format('otf');
+  src: local('Pristina'), url("./assets/Fonts/PRISTINA.woff") format('woff');
+}
+
+/*Default Value In Variables*/
+:root{
+  --mainFont: 'Pristina';
+  --secondFont: 'Montserrat', sans-serif;;
+  --mainSize: 1.6rem;
+  --mainColor: #FF7198;
+  --secondColor: #fdb4c9;
+  --thirdColor: #fff8fb;
+  --dark-grey: #7E7E7E;
+  --selectionColor: #FFA6D7FF;
+}
+
+/*Change the Selection Background*/
+::selection{
+  background-color: var(--selectionColor);
+}
+
+/*Reset every element*/
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Define what 1rem is*/
+html{
+  font-size: 62.5%;
+}
+
+/*Set default values*/
+body {
+  font-family: var(--mainFont);
+  font-size: var(--mainSize);
+  overflow-x: hidden;
+}
+
+/*Edit the Slide Library Arrows*/
+.splide__arrow {
+  background-color: var(--mainColor) !important;
+  position: relative;
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.splide__arrow::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--mainColor);
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  line-height: 3.7rem;
+}
+.splide__arrow svg{
+  display: none;
+}
+
+.splide__arrow.splide__arrow--prev::after {
+  content: "\2190";
+}
+
+.splide__arrow.splide__arrow--next::after {
+  content: "\2192";
+}
+
+@media only screen and (max-width: 50em) {
+  .splide__arrows{
+    display: none;
+  }
+}

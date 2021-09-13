@@ -1,0 +1,132 @@
+.Container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    position: relative;
+}
+/*Main Error*/
+.PublicError{
+    background-color: var(--mainColor);
+    padding: .5rem;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+/*Welcome Message area*/
+.PinkArea {
+    background-color: var(--mainColor);
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    color: white;
+    grid-column: 1 /  5;
+    grid-row: 1 / -1;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.PinkArea h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-right: 10rem;
+}
+
+.Message {
+    padding: 1rem;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    margin-right: 10rem;
+}
+
+/* Form Area*/
+.FormContainer {
+    grid-column: 5 / -1;
+    grid-row: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.FormArea {
+    width: 100%;
+    /*padding: 5rem;*/
+    padding: 1rem;
+    max-width: 40rem;
+}
+
+
+.ButtonsArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.LoginLink {
+    color: var(--mainColor);
+    text-decoration-line: line-through;
+}
+
+
+/**************************** Media ***********************************/
+
+/* media 760px*/
+@media only screen and (max-width: 47.5em) {
+    .FormArea {
+        padding: 2.5rem;
+    }
+}
+
+
+/* media 650px*/
+@media only screen and (max-width: 40.625em) {
+    html {
+        font-size: 57.5%;
+    }
+
+    .PinkArea h1 {
+        font-size: 4rem;
+    }
+
+    .Message {
+        font-size: 2rem;
+    }
+}
+
+
+/* media 600px*/
+@media only screen and (max-width: 37.5em) {
+    .PinkArea {
+        grid-column: 1 /  -1;
+        grid-row: 1 / 4;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    }
+
+    .FormContainer {
+        grid-column: 1 / -1;
+        grid-row: 4 / -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PinkArea h1,
+    .Message {
+        margin-right: 0;
+    }
+
+    .Message {
+        margin-top: 1rem;
+    }
+}
+

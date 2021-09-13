@@ -1,0 +1,13 @@
+.Line{
+    width: 100%;
+    height: .5rem;
+    background-color: var(--mainColor);
+    margin: .7rem auto;
+}
+
+/*1200px*/
+@media only screen and (max-width: 75em){
+    .Line{
+        width: 98%;
+    }
+}

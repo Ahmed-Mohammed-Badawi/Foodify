@@ -1,0 +1,64 @@
+
+.SearchBar{
+    background-color: var(--mainColor);
+    padding: .5rem 2rem;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Logo,
+.Checkout{
+    height: 100%;
+}
+
+.Logo img,
+.Checkout img{
+    height: 100%;
+}
+
+input.Search{
+    padding: 1rem 2rem;
+    background-color: var(--thirdColor);
+    width: 100%;
+    max-width: 40rem;
+    border: 0;
+    border-radius: 20rem;
+    outline: none;
+    color: var(--dark-grey);
+}
+
+.Checkout{
+    padding-top: .5rem;
+    position: relative;
+}
+
+.OrdersNumber{
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--secondColor);
+    color: #181818;
+}
+
+.Filter{
+    color: white;
+    font-family: var(--mainFont);
+    font-size: 2.2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: .5rem;
+}
+
+@media only screen and (min-width: 37.5em){
+    .Filter{
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+.Checkout{
+    display: grid;
+    grid-template-columns: 28rem 1fr;
+    min-height: 100vh;
+}
+
+/*650px*/
+@media only screen and (max-width: 40.625em) {
+    .Checkout{
+        grid-template-columns: 1fr;
+
+    }
+}

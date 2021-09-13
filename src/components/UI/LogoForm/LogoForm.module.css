@@ -1,0 +1,22 @@
+.Logo{
+    width: 7rem;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.Logo img {
+    filter: drop-shadow(0 0 .5rem rgba(255, 204, 100, 0.65));
+    width: 100%;
+}
+
+/* media 600px*/
+@media only screen and (max-width: 37.5em) {
+    .Logo{
+        top: 45%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,121 @@
+.Form{
+    display: grid;
+    margin-top: 5rem;
+    grid-column: 2 / 3;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+}
+
+/* Grid*/
+.InputsContainerPart{
+    grid-column: 1 / 2;
+    padding: 1rem;
+}
+
+.GenderContainerPart{
+    grid-column: 2 / 3;
+    padding: 1rem;
+}
+
+.ButtonContainer{
+    grid-column: 1 / -1;
+    margin-top: 5rem;
+}
+
+.ButtonContainer button{
+    width: 100%;
+    max-width: 30rem;
+}
+
+/*900px*/
+@media only screen and (max-width: 56.25em) {
+    .InputsContainerPart{
+        grid-column: 1 / -1;
+    }
+
+    .GenderContainerPart{
+        grid-column: 1 / -1;
+    }
+}
+
+/*700px*/
+@media only screen and (max-width: 43.75em){
+    .Form{
+        grid-column: 1 / -1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gender Part*/
+.Gender{
+    padding: 2rem 1rem;
+}
+
+.Gender h3 {
+    margin-bottom: 3rem;
+    color: var(--mainColor);
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+
+.RadioContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputRadio{
+    width: 50%;
+}
+
+.InputRadio input{
+    display: none;
+}
+
+.InputRadio label{
+    width: 100%;
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--secondColor);
+    color: #4d4d4d;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.InputRadio:first-child label{
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+.InputRadio:nth-child(2) label{
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.InputRadio input:checked + label{
+    background-color: var(--mainColor);
+    color: white;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.4);
+}
+
+.Error{
+    background-color: var(--mainColor);
+    color: white;
+    padding: .5rem;
+    border-radius: 2rem;
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+    font-family: var(--secondFont);
+}

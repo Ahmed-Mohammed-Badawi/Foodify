@@ -1,0 +1,30 @@
+.Filter{
+    background-color: var(--thirdColor);
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Input{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.Input input{
+    display: none;
+}
+
+.Input label{
+    padding: .6rem;
+    box-shadow: 0 0 .3rem rgba(0,0,0, 0.2);
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    color: #707070;
+}
+
+.Input input:checked + label{
+    background-color: var(--mainColor);
+    color: white;
+}

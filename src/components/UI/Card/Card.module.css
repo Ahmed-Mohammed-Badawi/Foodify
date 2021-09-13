@@ -1,0 +1,65 @@
+.Card{
+    width: 25rem;
+    padding: 1rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
+    margin: 2rem;
+    height: 35rem;
+    background-color: white;
+}
+
+.ImageContainer{
+    height: 17.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.3rem #70707070;
+    overflow: hidden;
+}
+
+.ImageContainer img {
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.Card h4{
+    font-size: 1.8rem;
+    font-family: var(--secondFont);
+    font-weight: 400;
+    margin-bottom: 5rem;
+    color: #707070;
+}
+
+.Heart{
+    max-width: 3.5rem;
+    position: absolute;
+    top: 25rem;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.Heart path{
+    fill: var(--dark-grey);
+}
+
+.Heart.Bought path{
+    fill: var(--mainColor) !important;
+    animation: popup;
+    animation-duration: .3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    transform-origin: center;
+}
+
+@keyframes popup {
+    0%{
+        transform: scale(0);
+    }
+
+    100%{
+        transform: scale(1);
+        fill: var(--mainColor);
+    }
+}

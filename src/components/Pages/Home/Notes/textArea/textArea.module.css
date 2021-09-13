@@ -1,0 +1,43 @@
+.TextAreaContainer{
+    position: relative;
+}
+
+.TextAreaContainer label {
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    transform: translateY(-50%);
+    padding: .5rem;
+    font-size: 1.5rem;
+    background-color: var(--mainColor);
+    color: white;
+}
+
+.TextArea{
+    padding: 1rem;
+    min-height: 17.5rem;
+    width: 100%;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: var(--mainFont);
+    font-size: 1.6rem;
+    resize: vertical;
+}
+
+.TextArea:focus{
+    border: 1px solid var(--mainColor);
+}
+
+.TextArea::placeholder{
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+}
+
+.Error{
+    padding: .5rem;
+    font-family: var(--secondFont);
+    font-size: 1.1rem;
+    color: #4d4d4d;
+    background-color: var(--mainColor);
+    border-radius: 2rem;
+}

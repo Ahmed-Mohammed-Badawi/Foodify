@@ -1,0 +1,8 @@
+.Container{
+    max-width: 120rem;
+    margin: auto;
+}
+.GridContainer{
+    display: grid;
+    grid-template-columns: 28rem 1fr;
+}

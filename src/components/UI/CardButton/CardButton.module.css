@@ -1,0 +1,8 @@
+.Button {
+    padding: .8rem 1rem;
+    background-color: var(--mainColor);
+    color: white;
+    border: 0;
+    width: 15rem;
+    cursor: pointer;
+}

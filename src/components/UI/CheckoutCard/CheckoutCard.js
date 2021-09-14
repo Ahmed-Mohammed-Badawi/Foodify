@@ -26,7 +26,7 @@ const CheckoutCard = (props) => {
             </div>
             {/*CheckoutCard BTN*/}
             <button
-                onClick={() => setMealNumber(mealNumber + 1)}
+                onClick={() => {mealNumber < 5 ? setMealNumber(mealNumber + 1) : setMealNumber(5)}}
                 className={classes.ButtonNumber}>&#43;</button>
             <span className={classes.MealNumber}>{mealNumber}</span>
             <button

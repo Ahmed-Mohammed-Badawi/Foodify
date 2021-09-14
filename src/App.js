@@ -5,6 +5,7 @@ import {Switch, Route} from "react-router-dom";
 import {Redirect} from "react-router-dom/cjs/react-router-dom";
 // Ui Extensions Imports
 import MouseCircle from "./components/UI/MouseCircle/MouseCircle";
+import Loading from "./components/UI/Loading/Loading";
 // redux Imports
 import {connect} from "react-redux";
 import * as actions from './store/Actions/allActions';
@@ -39,11 +40,11 @@ function App(props) {
         <div className="App">
             {/*Mouse Circle*/}
             {/*check screen width th show or hide the mouse Circle*/}
-            {/*{window.innerWidth < 768 || 'ontouchstart' in document.documentElement ? null : <MouseCircle/>}*/}
+            {window.innerWidth < 768 || 'ontouchstart' in document.documentElement ? null : <MouseCircle/>}
             {/*Redirect to login Page if it's not Authenticated*/}
             {Where_to_go}
             {/*Suspense For Lazy Loading*/}
-            <React.Suspense fallback={`<span>Loading....</span>`}>
+            <React.Suspense fallback={<Loading />}>
                 <Switch>
                     <Route
                         path={'/Userdata'}

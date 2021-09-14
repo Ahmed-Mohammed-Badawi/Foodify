@@ -58,7 +58,7 @@ const UserData = (props) => {
             style={{
                 color: 'var(--mainColor)'
             }}
-            to={'/Login'}>Signup To Continue &rarr;</NavLink>)
+            to={'/Login'}>Login To Continue &rarr;</NavLink>)
     } else {
         userInformation = (
             <div className={classes.UserShippingInfo}>

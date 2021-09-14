@@ -5,11 +5,11 @@ import MainImage from '../../../../assets/images/MainMeal.png';
 import Data from '../../../../json/FoodifyData.json';
 import Card from "../../../UI/Card/Card";
 
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import {Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import {NavLink} from "react-router-dom";
 
-const Menu = () => {
+const Menu = (props) => {
 
     return (
         <section className={classes.Menu} style={{overflow: 'hidden'}}>
@@ -27,27 +27,32 @@ const Menu = () => {
                     <NavLink className={classes.ShowMore} to={'/Market'}>SHOW MORE &rarr;</NavLink>
                 </div>
                 <div className={classes.Image}>
-                    <img src={MainImage} alt={"Main Meal"} />
+                    <img src={MainImage} alt={"Main Meal"}/>
                 </div>
             </div>
 
             {/* Second Part Carousel Part and Lunch menu*/}
             <div className={classes.CarouselContainer}>
                 <Splide
-                    options = {{
+                    options={{
                         rewind: true,
                         perMove: 1,
                         autoWidth: true,
                         pagination: false,
                     }}
                 >
-                {/*Map on lunch meals to show them in card component*/}
+                    {/*Map on lunch meals to show them in card component*/}
                     {Data.Meals.lunch.map((item) => {
-                        return (
-                            <SplideSlide key={Math.random()} >
-                                <Card cardData={item} Image={item.mealImage} Name={item.mealName}/>
-                            </SplideSlide>
-                        )}
+                            return (
+                                <SplideSlide key={Math.random()}>
+                                    <Card
+                                        // Fn() to Show Modal Card With Data
+                                        cardClicked={props.cardClicked}
+                                        cardData={item}
+                                        Image={item.mealImage} Name={item.mealName}/>
+                                </SplideSlide>
+                            )
+                        }
                     )}
                 </Splide>
             </div>

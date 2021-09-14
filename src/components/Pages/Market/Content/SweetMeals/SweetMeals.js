@@ -28,7 +28,7 @@ const SweetMeals = (props) => {
                     }).map((current, index) => {
                         return (
                             <SplideSlide key={'ca' + index}>
-                                <Card cardData={current} Name={current.mealName} Image={current.mealImage}/>
+                                <Card cardClicked={props.cardClicked} cardData={current} Name={current.mealName} Image={current.mealImage}/>
                             </SplideSlide>
                         )
                     })

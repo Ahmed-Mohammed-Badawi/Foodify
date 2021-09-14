@@ -1,0 +1,43 @@
+.Modal{
+    width: 90%;
+    padding: 2rem 1rem;
+    border: .5rem solid var(--secondColor);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 501;
+    background-color: white;
+    transition: all .3s ease-out;
+}
+
+/*500px*/
+@media only screen and (min-width: 31.25em) {
+    .Modal {
+        max-width: 50rem;
+    }
+}
+
+.Close{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+    box-shadow: 0 0 0.3rem rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Close img{
+    max-width: 2rem;
+}
+
+.Close:active{
+    box-shadow: inset 0 0 0.3rem rgba(0,0,0,0.3);
+}

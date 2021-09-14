@@ -11,7 +11,7 @@ const Card = (props) => {
 
     useEffect(() => {
         // Check if the item selected from other page or no to check it
-        if (props.Orders.includes(props.cardData)){
+        if (props.Orders.includes(props.cardData)) {
             setCheckState(true)
         }
     }, [props.Orders, props.cardData])
@@ -34,7 +34,6 @@ const Card = (props) => {
         }
     }
 
-
     return (
         <div className={classes.Card}>
             {/*IMG*/}
@@ -52,7 +51,12 @@ const Card = (props) => {
 			C512,93.417,453.532,30,376,30z"/>
             </svg>
             {/*Card BTN*/}
-            <CardButton>Show</CardButton>
+            <CardButton
+                // Call Fn() To Show Modal Card of Meal Data
+                clicked={() => props.cardClicked(props.cardData)}
+            >
+                Show
+            </CardButton>
         </div>
     )
 }

@@ -13,13 +13,13 @@ const Content = (props) => {
     return (
         <section>
             {(!props.isChecked_1 && !props.isChecked_2 && !props.isChecked_3) || props.isChecked_1 ?
-                <BreakfastMeals SearchWord={props.SearchWord}/>
+                <BreakfastMeals cardClicked={props.cardClicked} SearchWord={props.SearchWord}/>
                 : null}
             {(!props.isChecked_1 && !props.isChecked_2 && !props.isChecked_3) || props.isChecked_2 ?
-                <LunchMeals SearchWord={props.SearchWord}/>
+                <LunchMeals cardClicked={props.cardClicked} SearchWord={props.SearchWord}/>
                 : null}
             {(!props.isChecked_1 && !props.isChecked_2 && !props.isChecked_3) || props.isChecked_3 ?
-                <SweetMeals SearchWord={props.SearchWord}/>
+                <SweetMeals cardClicked={props.cardClicked} SearchWord={props.SearchWord}/>
                 : null}
         </section>
     )

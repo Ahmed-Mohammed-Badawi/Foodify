@@ -39,7 +39,7 @@ function App(props) {
         <div className="App">
             {/*Mouse Circle*/}
             {/*check screen width th show or hide the mouse Circle*/}
-            {window.innerWidth < 768 || 'ontouchstart' in document.documentElement ? null : <MouseCircle/>}
+            {/*{window.innerWidth < 768 || 'ontouchstart' in document.documentElement ? null : <MouseCircle/>}*/}
             {/*Redirect to login Page if it's not Authenticated*/}
             {Where_to_go}
             {/*Suspense For Lazy Loading*/}

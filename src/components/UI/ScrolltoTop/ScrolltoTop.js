@@ -36,4 +36,4 @@ const ScrollToTop = () => {
 
 }
 
-export default ScrollToTop;
+export default React.memo(ScrollToTop);

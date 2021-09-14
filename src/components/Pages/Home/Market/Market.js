@@ -36,4 +36,4 @@ const MarketButton = (props) => {
 }
 
 //Add router props to component
-export default withRouter(MarketButton);
+export default React.memo(withRouter(MarketButton));

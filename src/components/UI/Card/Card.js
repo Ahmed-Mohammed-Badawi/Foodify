@@ -34,6 +34,7 @@ const Card = (props) => {
         }
     }
 
+
     return (
         <div className={classes.Card}>
             {/*IMG*/}

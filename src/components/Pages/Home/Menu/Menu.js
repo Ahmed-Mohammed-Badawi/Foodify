@@ -3,9 +3,9 @@ import classes from './Menu.module.css';
 //Imports
 import MainImage from '../../../../assets/images/MainMeal.png';
 import Data from '../../../../json/FoodifyData.json';
-import Card from "../../../UI/Card/Card";
+import MealSlide from "./MealSlide/MealSlide";
 
-import {Splide, SplideSlide} from '@splidejs/react-splide';
+import {Splide} from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import {NavLink} from "react-router-dom";
 
@@ -42,15 +42,15 @@ const Menu = (props) => {
                     }}
                 >
                     {/*Map on lunch meals to show them in card component*/}
-                    {Data.Meals.lunch.map((item) => {
+                    {Data.Meals.lunch.map((item, index) => {
                             return (
-                                <SplideSlide key={Math.random()}>
-                                    <Card
-                                        // Fn() to Show Modal Card With Data
-                                        cardClicked={props.cardClicked}
-                                        cardData={item}
-                                        Image={item.mealImage} Name={item.mealName}/>
-                                </SplideSlide>
+                                <MealSlide
+                                    key={'item' + index}
+                                    cardClicked={props.cardClicked}
+                                    item={item}
+                                    Image={item.mealImage}
+                                    Name={item.mealName}
+                                />
                             )
                         }
                     )}

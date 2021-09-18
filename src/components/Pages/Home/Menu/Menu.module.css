@@ -7,7 +7,6 @@
     font-size: 4rem;
     color: var(--mainColor);
     text-transform: uppercase;
-    letter-spacing: .5rem;
     margin-bottom: 8rem;
     background-color: white;
 }
@@ -52,7 +51,6 @@
 .Ingredient{
     font-size: 2rem;
     margin-bottom: 1rem;
-    letter-spacing: .1rem;
     list-style-position: inside;
     list-style-type: circle;
     color: #707070;

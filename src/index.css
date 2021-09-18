@@ -1,15 +1,15 @@
 /* Second Font from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 /*First Font from The Local PC*/
-/*@font-face {*/
-/*  font-family: 'Pristina';*/
-/*  src: local('Pristina'), url("./assets/Fonts/PRISTINA.otf") format('otf');*/
-/*  src: local('Pristina'), url("./assets/Fonts/PRISTINA.woff") format('woff');*/
-/*}*/
+@font-face {
+  font-family: 'Pristina';
+  src: local('Pristina'), url("./assets/Fonts/PRISTINA.otf") format('otf');
+  src: local('Pristina'), url("./assets/Fonts/PRISTINA.woff") format('woff');
+}
 
 /*Default Value In Variables*/
 :root{
-  --mainFont: 'Montserrat', sans-serif;
+  --mainFont: 'Pristina', sans-serif;
   --secondFont: 'Montserrat', sans-serif;
   --mainSize: 1.6rem;
   --mainColor: #FF7198;

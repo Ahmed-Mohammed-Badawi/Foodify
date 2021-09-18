@@ -60,6 +60,7 @@
     left: 3rem;
     width: 2.5rem;
     height: 2.5rem;
+    font-weight: bold;
     background-color: var(--secondColor);
     color: black;
     border-radius: 50%;
